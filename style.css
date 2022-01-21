@@ -19,7 +19,7 @@ body{
 }
 header{
     width: 75%;
-    min-width: 300px;
+    min-width: 390px;
 }
 header img{
    height: 200px;
@@ -27,7 +27,7 @@ header img{
 }
 nav {   
     max-width: 100%; 
-    min-width: 300px;   
+    min-width: 390px;   
     background-image: linear-gradient(to right, #2a6136, white, #873838);   
 }
 nav img {
@@ -35,7 +35,7 @@ nav img {
 }
 main{    
     max-width: 75%;
-    min-width: 300px;
+    min-width: 390px;
 }
 #menu {
     font-weight: 900;
@@ -53,7 +53,7 @@ main{
     float: left;    
     height: 100%;
     width: 33.3%;
-    min-width: 200px;      
+    min-width: 390px;      
 }
 .bandeira-italy {    
     background-image: url('images/chef.jpg');
@@ -63,7 +63,7 @@ main{
 }
 #info{
     max-width: 75%;
-    min-width: 300px;
+    min-width: 390px;
 }
 #info iframe {
     height: 200px;
@@ -72,14 +72,17 @@ main{
 @media screen and (max-width: 950px){
     header, nav, main, .faixa, #info {
         float: none;
-        width: 300px;
+        width: 390px;
     }
     #bandeira {
         height: 100%;
     }
 }
 ul {
-    list-style: none;
+    list-style: none; 
+}
+li {
+    padding: 5px;
 }
 #verde {
     background-image: linear-gradient(to right, #2a6136, white);   
