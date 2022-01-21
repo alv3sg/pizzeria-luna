@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+body{
+    background-image: url('images/bg.jpg');
+    background-color: black;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+header{
+    width: 75%;
+    min-width: 300px;
+}
+header img{
+   height: 200px;
+   border-radius: 50%;
+}
+nav {   
+    max-width: 100%; 
+    min-width: 300px;   
+    background-image: linear-gradient(to right, #2a6136, white, #873838);   
+}
+nav img {
+    height: 50px;
+}
+main{    
+    max-width: 75%;
+    min-width: 300px;
+}
+#menu {
+    font-weight: 900;
+    font-size: 1.5rem;    
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 100%;
+}
+#bandeira {
+    position: relative;
+    height: 1050px;    
+    text-align: center;
+    margin: auto;    
+}
+.faixa{
+    float: left;    
+    height: 100%;
+    width: 33.3%;
+    min-width: 200px;      
+}
+.bandeira-italy {    
+    background-image: url('images/chef.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+#info{
+    max-width: 75%;
+    min-width: 300px;
+}
+#info iframe {
+    height: 200px;
+    width: 70%;
+}
+@media screen and (max-width: 950px){
+    header, nav, main, .faixa, #info {
+        float: none;
+        width: 300px;
+    }
+    #bandeira {
+        height: 100%;
+    }
+}
+ul {
+    list-style: none;
+}
+#verde {
+    background-image: linear-gradient(to right, #2a6136, white);   
+}
+#branco {
+    background-color: rgb(255, 255, 255);
+}
+#vermelho {
+    background-image: linear-gradient(to right, white, #873838);
+}
+figcaption{
+    color: black;    
+    font-size: medium;    
+}
+
+
+
